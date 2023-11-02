@@ -1,0 +1,134 @@
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 92px;
+  margin-bottom: 92px;
+}
+
+.header__menu {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 210px;
+  text-underline-offset: 4px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+}
+
+.header__links-list li:first-child {
+  list-style: none;
+}
+
+.header__links-list-item {
+  list-style: circle;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  margin-right: 355px;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+.address {
+  width: 240px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  text-underline-offset: 4px;
+}
+
+/* Секция с картинкой */
+
+.cover {
+  position: relative;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 757px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  height: 757px;
+  background-color: #000;
+  opacity: 0.6;
+}
+
+.cover__title {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  font-size: 100px;
+  margin-bottom: 127px;
+}
+.accent__span {
+  display: block;
+  padding-top: 165px;
+}
+.accent__span__letter-spacing {
+  letter-spacing: 60px;
+}
+.text-center {
+  text-align: center;
+  padding-top: 10px;
+}
+.text-right {
+  text-align: right;
+  margin-right: -30px;
+  padding-top: 8px;
+}
+.cover__description {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 78px;
+  position: relative;
+  z-index: 1;
+}
+.cover__description-text {
+  color: #fff;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+.cover__btn {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #fff;
+  padding: 12px 32px;
+}

@@ -273,3 +273,41 @@
   font-weight: 400;
   line-height: normal;
 }
+
+/* Секция footer */
+
+.footer {
+  padding-top: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.footer__menu {
+  margin: 0 auto;
+}
+
+.footer__menu-list {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.footer__menu-list-item {
+  list-style: none;
+}
+
+.footer__social {
+  display: flex;
+  gap: 46px;
+}
+
+.footer__social-list {
+  list-style: none;
+}
+
+.footer__social-icon {
+  height: 48px;
+  width: 50px;
+}

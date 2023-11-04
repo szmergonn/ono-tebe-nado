@@ -139,7 +139,6 @@
 
 .lots {
   padding-top: 180px;
-  margin-bottom: 200px;
 }
 
 .lots__heading {
@@ -204,13 +203,6 @@
   padding-right: 40px;
 }
 
-.card__text {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .card_type_book {
   position: relative;
   background-image: url(../images/card-lot-02.jpg);
@@ -237,4 +229,47 @@
   padding-left: 40px;
   text-underline-offset: 5px;
   text-decoration: underline solid rgb(0, 0, 0) 0.5px;
+}
+
+/* Секция об аукционе */
+
+.about {
+  padding-top: 181px;
+}
+.about__column {
+  display: grid;
+  grid-template-columns: 430px 885px;
+  gap: 25px;
+}
+
+.about__logo {
+  position: relative;
+  margin: 0 auto;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
+}
+.about__logo-image {
+  position: absolute;
+  top: 62px;
+  left: 45px;
+  width: 148px;
+  height: 114px;
+}
+.about__title {
+  padding-left: 0;
+  padding-top: 101px;
+  margin-bottom: 100px;
+}
+.about__text-main {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.about__text {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
 }
